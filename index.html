@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="travel.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">HappyTravels</div>
+        <ul class="links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#footer">Contact Us</a></li>
+            <li><a href="signin.html">Sign In</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section id="home" class="section">
+        <h1>Welcome to HappyTravels</h1>
+        <p>Your dream destination is just a click away!</p>
+        <div class="info">
+            <p>Price Range: <strong>₹5000-₹15000</strong></p>
+            <p>Duration: <strong>3 to 15 Days</strong></p>
+            <p>Special Offers Available!</p>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h1>Know About Us</h1>
+        <p>At HappyTravels, we believe in making travel experiences memorable.</p>
+        <div class="places">
+            <div class="place" onclick="flipCard(this)">
+                <div class="card">
+                    <div class="card-front">
+                        <img src="images/coorg.jpg" alt="Coorg">
+                        <p>Coorg</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Coorg, officially known as Kodagu, is a hill station in Karnataka known for its lush greenery.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="place" onclick="flipCard(this)">
+                <div class="card">
+                    <div class="card-front">
+                        <img src="images/jaipur.jpg" alt="Jaipur">
+                        <p>Jaipur</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Jaipur, the Pink City, is famous for its palaces, forts, and rich culture.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="place" onclick="flipCard(this)">
+                <div class="card">
+                    <div class="card-front">
+                        <img src="images/ooty.jpg" alt="Ooty">
+                        <p>Ooty</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Ooty, Tamil Nadu, is known for its lakes, viewpoints, and tea plantations.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="place" onclick="flipCard(this)">
+                <div class="card">
+                    <div class="card-front">
+                        <img src="images/munnar.jpg" alt="munnar">
+                        <p>Munnar</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Munnar, a picturesque hill station in Kerala, is famed for its sprawling tea plantations, misty mountains, and serene valleys, making popular tourist spots like Mattupetty Dam, Pothamedu Viewpoint, Kundala Lake, Anamudi Peak, and Rajamalai National Park</p>
+                    </div>
+                </div>
+            </div>
+            <div class="place" onclick="flipCard(this)">
+                <div class="card">
+                    <div class="card-front">
+                        <img src="images/ladakh.jpg" alt="ladakh">
+                        <p>Ladakh</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Ladakh has many tourist places, including monasteries, lakes, palaces, and wildlife sanctuaries. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="place" onclick="flipCard(this)">
+                <div class="card">
+                    <div class="card-front">
+                        <img src="images/darjeeling.jpg" alt="darjeeling">
+                        <p>Darjeeling</p>
+                    </div>
+                    <div class="card-back">
+                        <p>Darjeeling, often called the "Queen of Hills," is a popular tourist destination in India, renowned for its breathtaking views of the Himalayas, sprawling tea gardens, and the iconic Darjeeling Himalayan Railway. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <h1>Our Services</h1>
+        <p>We offer customized travel packages, hotel bookings, and guided tours.</p>
+        <div class="container">
+            <div class="service">
+                <img src="images/flight.jpg" alt="Flight Booking">
+                <h3>Flight Bookings</h3>
+                <p>Get the best flight deals at the lowest prices.</p>
+            </div>
+            <div class="service">
+                <img src="images/hotel.jpg" alt="Hotel Booking">
+                <h3>Hotel Reservations</h3>
+                <p>Luxury and budget-friendly hotels available worldwide.</p>
+            </div>
+            <div class="service">
+                <img src="images/tour.jpg" alt="Guided Tours">
+                <h3>Guided Tours</h3>
+                <p>Personalized tours with experienced guides.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <h2>Contact Us</h2>
+        <p>Email: support@happytravels.com</p>
+        <p>Phone: +1 234 567 890</p>
+        <p>Address: 123 Travel Street, India</p>
+    </footer>
+
+    <script defer src="travel.js"></script>
+</body>
+</html>

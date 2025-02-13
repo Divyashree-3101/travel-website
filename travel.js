@@ -6,14 +6,14 @@ document.addEventListener("DOMContentLoaded", function () {
         navLinks.classList.toggle("active");
     });
 
-    // Flip effect for About Us cards
+ 
     document.querySelectorAll(".place").forEach(place => {
         place.addEventListener("click", function () {
             this.classList.toggle("flipped");
         });
     });
 
-    // Scroll animation for sections
+   
     const sections = document.querySelectorAll(".section");
 
     function revealSections() {

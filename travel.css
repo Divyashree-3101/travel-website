@@ -12,7 +12,7 @@
     background: black;
     padding: 15px 20px;
     color: white;
-    position: fixed;
+    position: relative;
     width: 100%;
     top: 0;
     z-index: 1000;
@@ -73,14 +73,13 @@ h1 {
 }
 
 .section {
-    padding: 20px;
+    padding: 30px;
     text-align: center;
     opacity: 0;
     transform: translateY(30px);
     transition: all 0.8s ease-in-out;
     background-color: #444;
     color: white;
-   
 }
 
 .section.visible {
@@ -137,7 +136,7 @@ h1 {
 }
 
 .card-back {
-    background: #ffcc00;
+    background: #efc621;
     transform: rotateY(180deg);
     padding: 10px;
     text-align: center;
